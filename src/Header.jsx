@@ -3,16 +3,14 @@ function Header() {
   return (
     <header>
       {isLogin ? (
-        <>
-          <button>Dashboard</button>
-          <button>Basket</button>
-        </>
+        <button>Dashboard</button>
       ) : (
         <>
           <button>Login</button>
           <button>Register</button>
         </>
       )}
+      {isLogin && <button>Basket</button>}
     </header>
   );
 }
