@@ -1,7 +1,8 @@
 // import Header from "./Header";
 // import CourseList from "./CourseList";
 // import Banner from "./Banner";
-import Counter from "./Counter";
+// import Counter from "./Counter";
+import Form from "./Form";
 
 function App() {
   // const operationSystem = "macbook";
@@ -15,7 +16,8 @@ function App() {
         os={operationSystem}
       />
       <CourseList /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Form />
     </>
   );
 }
